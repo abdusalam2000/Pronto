@@ -40,23 +40,25 @@
 
     <div class="relative h-screen w-full flex items-center justify-center bg-cover bg-center text-center px-5"
         style="background-image:url(https://images.pexels.com/photos/260689/pexels-photo-260689.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500);">
-        <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-900 opacity-75"></div>
+        <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-700 opacity-75"></div>
 
         <div class="z-50 flex flex-col justify-center text-white w-full ">
             <div class=" flex flex-col justify-center items-center">
 
-                <img src="{{ url('logo.jpg') }}" alt="Logo" class="object-cover w-60 h-50 mb-8 rounded-full">
+                <img src="{{ url('logor.png') }}" alt="Logo" class="relative   object-cover w-85 h-45 ">
             </div>
-            <h1 class="text-5xl">We are <b>Almost</b> there!</h1>
-            <p>Stay tuned for something amazing!!!</p>
-
-            <div class="mt-10 mb-5">
-                <div class="shadow w-full bg-white mt-2 max-w-2xl mx-auto rounded-full">
-                    <div class="rounded-full bg-orange-600 text-xs leading-none text-center text-white py-1"
-                        style="width: 30%">30%</div>
+            <h1 class="absolute bottom-45 mt-20 pt-20 left-0 right-0 text-5xl">We are <b>Almost</b> there!</h1>
+            <div class="
+                mt-5 pt-5">
+                <div class="shadow w-full bg-white  max-w-2xl mx-auto rounded-full">
+                    <div class="rounded-full bg-orange-600 text-l leading-none text-center text-white py-3"
+                        style="width: 30%">Stay tuned !!!</div>
                 </div>
             </div>
-            <div class="flex justify-center items-center space-x-4">
+            {{-- <p class="flex flex-col pb-5">for something amazing!!!</p> --}}
+
+
+            <div class=" pt-10 justify-center items-center space-x-4">
                 <a href="learnmore" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md">Learn
                     More</a>
 
@@ -123,19 +125,6 @@
                         </path>
                     </svg>
                 </a>
-                <!-- <a href="#">
-                <svg fill="currentColor" class="cursor-pointer h-6 mr-2" viewBox="0 0 24 24" version="1.1"
-                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
-                    xmlns:serif="http://www.serif.com/"
-                    style="fill-rule: evenodd; clip-rule: evenodd; stroke-linejoin: round; stroke-miterlimit: 2;">
-                    <path id="Combined-Shape" d="M12,24c6.627,0 12,-5.373 12,-12c0,-6.627 -5.373,-12 -12,-12c-6.627,0
-                    -12,5.373 -12,12c0,6.627 5.373,12 12,12Zm6.591,-15.556l-0.722,0c-0.189,0
-                    -0.681,0.208 -0.681,0.385l0,6.422c0,0.178 0.492,0.323
-                    0.681,0.323l0.722,0l0,1.426l-4.675,0l0,-1.426l0.935,0l0,-6.655l-0.163,0l-2.251,8.081l-1.742,0l-2.222,-8.081l-0.168,0l0,6.655l0.935,0l0,1.426l-3.74,0l0,-1.426l0.519,0c0.203,0
-                    0.416,-0.145 0.416,-0.323l0,-6.422c0,-0.177 -0.213,-0.385
-                    -0.416,-0.385l-0.519,0l0,-1.426l4.847,0l1.583,5.704l0.042,0l1.598,-5.704l5.021,0l0,1.426Z"></path>
-                </svg>
-            </a> -->
             </div>
 
 
