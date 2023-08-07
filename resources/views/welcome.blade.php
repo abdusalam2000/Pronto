@@ -52,7 +52,7 @@
                 mt-5 pt-5">
                 <div class="shadow w-full bg-white  max-w-2xl mx-auto rounded-full">
                     <div class="rounded-full bg-orange-600 text-l leading-none text-center text-white py-3"
-                        style="width: 30%">Stay tuned !!!</div>
+                        style="width: 30%">Stay tuned .</div>
                 </div>
             </div>
             {{-- <p class="flex flex-col pb-5">for something amazing!!!</p> --}}

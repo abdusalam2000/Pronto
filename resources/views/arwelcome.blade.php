@@ -47,17 +47,17 @@
                 <img src="{{ url('logorar.png') }}" alt="Logo" class="relative   object-cover w-85 h-45 ">
             </div>
             <h1 class="absolute bottom-45 mt-20 pt-20 left-0 right-0 text-5xl">
-                نحن على بعد
-                <b>خطوات قليلة</b>
-                من الأطلاق
+                شارفنا
+                <b>على</b>
+                الإطلاق
             </h1>
             <div class="
                 mt-5 pt-5">
                 <div class="shadow w-full bg-white  max-w-2xl mx-auto rounded-full">
                     <div class=" ml-auto rounded-full bg-orange-600 text-l leading-none text-center text-white py-3"
                         style="
-                        width: 30%">!!!
-                        ترقبوا شيء مدهشا
+                        width: 30%">.
+                        ترقبوا شيئا مدهشا
                     </div>
                 </div>
             </div>
